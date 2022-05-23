@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "id": "laboratory-service-type",
+  "meta": {
+    "lastUpdated": "2019-12-20T10:30:00Z",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-laboratory-service-definition-type.html\"><code>http://hl7.org/fhir/uv/order-catalog/CodeSystem/laboratory-service-definition-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-laboratory-service-definition-type.html#laboratory-service-definition-type-test\">test</a></td><td>unitary measurement performed on an in vitro biologic specimen</td><td>laboratory service performing a single measurement</td></tr><tr><td><a href=\"CodeSystem-laboratory-service-definition-type.html#laboratory-service-definition-type-panel\">panel</a></td><td>collection of tests and panels performed on one or more in vitro biologic specimens</td><td>laboratory service comprising two or more tests and/or panels</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/order-catalog/ValueSet/laboratory-service-type",
+  "version": "current",
+  "name": "LaboratoryServiceType",
+  "title": "Types of diagnostic services performed by a laboratory",
+  "status": "active",
+  "experimental": false,
+  "date": "2019-12-20",
+  "publisher": "HL7 International - Orders and Observations Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/orders"
+        }
+      ]
+    }
+  ],
+  "description": "This value set is restricted to these two codes: test | panel",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/order-catalog/CodeSystem/laboratory-service-definition-type",
+        "concept": [
+          {
+            "code": "test",
+            "display": "unitary measurement performed on an in vitro biologic specimen"
+          },
+          {
+            "code": "panel",
+            "display": "collection of tests and panels performed on one or more in vitro biologic specimens"
+          }
+        ]
+      }
+    ]
+  }
+}
