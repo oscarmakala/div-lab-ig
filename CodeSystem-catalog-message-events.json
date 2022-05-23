@@ -11,7 +11,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <h2>Catalog message event codes</h2>\n      <div>\n        <p>This CodeSystem provides  coded concepts for event codes in MessageHeader of FHIR messages conveying the content of a catalog.</p>\n      </div>\n    </div>"
   },
-  "url": "http://hl7.org/fhir/uv/order-catalog/CodeSystem/catalog-message-events",
+  "url": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/catalog-message-events",
   "version": "current",
   "name": "CatalogMessageEvents",
   "title": "Catalog Message Event Codes",

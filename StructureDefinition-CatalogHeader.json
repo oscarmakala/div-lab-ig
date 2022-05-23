@@ -5,7 +5,7 @@
     "status": "additional",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This profile constrains the Composition resource to\n      represent the header of a catalog of healthcare products/services/knowledge artefacts. The\n      resource provides the global metadata of the catalog, such as the custodian, category,\n      validity period and title. An instance of Composition profiled by CatalogHeader does not\n      mention the catalog items. Instead, it is referenced by the definitional resources\n      representing the items belonging to this catalog.</div>"
   },
-  "url": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/CatalogHeader",
+  "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogHeader",
   "version": "current",
   "name": "CatalogHeader",
   "title": "Catalog Header",
@@ -449,7 +449,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/ValidityPeriod"
+              "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ValidityPeriod"
             ]
           }
         ],
@@ -2945,7 +2945,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/ValidityPeriod"
+              "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ValidityPeriod"
             ]
           }
         ],
