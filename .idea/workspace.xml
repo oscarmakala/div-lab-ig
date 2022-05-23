@@ -2,33 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48ff75b6-8423-4809-93ca-2cde5350343d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-BillingSummary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-CatalogHeader.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-CatalogMessageDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-CatalogReference.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ContraindicationDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-DeviceModel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-DrugKnowledge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-IndicationDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-InputObservationDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-InteractionDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ItemTransactionRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ItemTransactionResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-LabChargeItemDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-LabObservationDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-LabProcedureDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-LabServiceDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-LabSpecimenDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-LimitationSummary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-RegulatorySummary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ResultInterpretationSummary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ScheduleSummary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ServiceBillingCode.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-SpecimenRequested.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-UndesirableEffectDefinition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-ValidityPeriod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StructureDefinition-WarningDefinition.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +185,7 @@
       <workItem from="1653337745679" duration="2225000" />
       <workItem from="1653339976581" duration="66000" />
       <workItem from="1653340045393" duration="34000" />
+      <workItem from="1653340081900" duration="340000" />
     </task>
     <servers />
   </component>

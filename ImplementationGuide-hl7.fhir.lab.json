@@ -1,11 +1,11 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.fhir.uv.order-catalog",
+  "id": "hl7.fhir.lab",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OrderCatalogIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/order-catalog/ImplementationGuide/hl7.fhir.uv.order-catalog</pre><div><p>An Order Catalog is an administered homogeneous collection of items such as medication products, laboratory tests, procedures, medical devices or knowledge artifacts such as order sets, which support the ordering process, or more generally healthcare processes.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OrderCatalogIG</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/oscarmakala/div-lab-ig/ImplementationGuide/hl7.fhir.lab</pre><div><p>An Order Catalog is an administered homogeneous collection of items such as medication products, laboratory tests, procedures, medical devices or knowledge artifacts such as order sets, which support the ordering process, or more generally healthcare processes.</p>\n</div></div>"
   },
-  "url": "http://hl7.org/fhir/uv/order-catalog/ImplementationGuide/hl7.fhir.uv.order-catalog",
+  "url": "https://github.com/oscarmakala/div-lab-ig/ImplementationGuide/hl7.fhir.lab",
   "version": "current",
   "name": "OrderCatalogIG",
   "title": "Order Catalog Implementation Guide",
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "hl7.fhir.uv.order-catalog",
+  "packageId": "hl7.fhir.lab",
   "license": "CC0-1.0",
   "fhirVersion": [
     "5.0.0-snapshot1"
@@ -554,7 +554,7 @@
         },
         "name": "A clinical laboratory catalog",
         "description": "Lab E* - Catalog header representing a clinical laboratory compendium, used by all lab examples in this implementation guide",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/CatalogHeader",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogHeader",
         "groupingId": "labE"
       },
       {
@@ -569,7 +569,7 @@
         },
         "name": "A medical device catalog",
         "description": "Catalog header of a catalog of medical devices, used by all device examples in this implementation guide",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/CatalogHeader",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogHeader",
         "groupingId": "devE"
       },
       {
@@ -584,7 +584,7 @@
         },
         "name": "Medications authorized for prescription in Healthyland",
         "description": "Catalog header of a catalog of medications, used by all medication examples in this implementation guide",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/CatalogHeader",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogHeader",
         "groupingId": "drugE"
       },
       {
@@ -599,7 +599,7 @@
         },
         "name": "Lab service serum K",
         "description": "Lab E1 - simple test laboratory service - serum K",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE"
       },
       {
@@ -614,7 +614,7 @@
         },
         "name": "Lab service blood electrolyte",
         "description": "Lab E2 - panel laboratory service - electrolyte on blood or plasma",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE"
       },
       {
@@ -629,7 +629,7 @@
         },
         "name": "Lab service 24H urine creat",
         "description": "Lab E3, E5 - panel laboratory service - creatinine on 24-hour urine specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE"
       },
       {
@@ -644,7 +644,7 @@
         },
         "name": "Lab service serum creat",
         "description": "Lab E4, E5 - panel laboratory service - creatinine on serum or plasma specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE"
       },
       {
@@ -659,7 +659,7 @@
         },
         "name": "Lab service creat renal clearance",
         "description": "Lab E5 - panel laboratory service - creatinine renal clearance using 24-hour urine specimen and serum or plasma specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE"
       },
       {
@@ -674,7 +674,7 @@
         },
         "name": "Lab service vitamin D",
         "description": "Lab E6 - simple test laboratory service - vitamin D (in French)",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE"
       },
       {
@@ -689,7 +689,7 @@
         },
         "name": "Lab service HSV 2 IgM titer",
         "description": "Lab E7 - simple test laboratory service - serum HSV 2 IgM titer",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -704,7 +704,7 @@
         },
         "name": "Lab service HSV 1 IgM titer",
         "description": "Lab E7 - simple test laboratory service - serum HSV 1 IgM titer",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -719,7 +719,7 @@
         },
         "name": "Lab service HSV IgM",
         "description": "Lab E7 - panel laboratory service - serum HSV 1 & 2 IgM screen panel + reflex titer",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -734,7 +734,7 @@
         },
         "name": "Lab service CMV IgM",
         "description": "Lab E7 - test laboratory service - serum CMV IgM test",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -749,7 +749,7 @@
         },
         "name": "Lab service Rubella IgM",
         "description": "Lab E7 - test laboratory service - serum Rubella IgM test",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -764,7 +764,7 @@
         },
         "name": "Lab service Toxoplasma gondii Ab",
         "description": "Lab E7 - panel laboratory service - serum Toxoplasma gondii Antibody panel",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -779,7 +779,7 @@
         },
         "name": "Lab service TORCH panel",
         "description": "Lab E7 - panel laboratory service - serum TORCH panel",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabServiceDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition",
         "groupingId": "labE7"
       },
       {
@@ -794,7 +794,7 @@
         },
         "name": "Lab procedure 24H urine creat",
         "description": "Lab E3, E5 - panel laboratory procedure - 24-hour urine creatinine",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE"
       },
       {
@@ -809,7 +809,7 @@
         },
         "name": "Lab procedure serum creatinine",
         "description": "Lab E4, E5 - laboratory procedure - creatinine - on serum or plasma",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE"
       },
       {
@@ -824,7 +824,7 @@
         },
         "name": "Lab procedure serum K",
         "description": "Lab E1 - simple test laboratory procedure - serum K",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE"
       },
       {
@@ -839,7 +839,7 @@
         },
         "name": "Lab procedure blood electrolyte",
         "description": "Lab E2 - panel laboratory procedure - electrolyte on serum or plasma",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE"
       },
       {
@@ -854,7 +854,7 @@
         },
         "name": "Lab procedure creatinine clearance",
         "description": "Lab E5 - laboratory procedure carrying a single observation - creatinine renal clearance",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE"
       },
       {
@@ -869,7 +869,7 @@
         },
         "name": "Lab procedure vitamin D",
         "description": "Lab E6 - simple test laboratory procedure - vitamin D (in French)",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE"
       },
       {
@@ -884,7 +884,7 @@
         },
         "name": "Lab procedure Toxoplasma gondii",
         "description": "Lab E7 - laboratory procedure - Toxoplasma gondii serology",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE7"
       },
       {
@@ -899,7 +899,7 @@
         },
         "name": "Lab procedure Rubella IgM",
         "description": "Lab E7 - laboratory procedure - Rubella serology",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE7"
       },
       {
@@ -914,7 +914,7 @@
         },
         "name": "Lab procedure CMV IgM",
         "description": "Lab E7 - laboratory procedure - CMV IgM",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE7"
       },
       {
@@ -929,7 +929,7 @@
         },
         "name": "Lab procedure HSV serology",
         "description": "Lab E7 - laboratory procedure - HSV 1 & 2 IgM",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE7"
       },
       {
@@ -944,7 +944,7 @@
         },
         "name": "Lab procedure HSV 1 IgM titer",
         "description": "Lab E7 - laboratory procedure - HSV 1 IgM titer",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE7"
       },
       {
@@ -959,7 +959,7 @@
         },
         "name": "Lab procedure HSV 2 IgM titer",
         "description": "Lab E7 - laboratory procedure - HSV 2 IgM titer",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabProcedureDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabProcedureDefinition",
         "groupingId": "labE7"
       },
       {
@@ -974,7 +974,7 @@
         },
         "name": "Lab specimen venous serum",
         "description": "Lab E1, E4, E5, E6 - venous serum specimen requirement for a single chemistry test",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabSpecimenDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabSpecimenDefinition",
         "groupingId": "labE"
       },
       {
@@ -989,7 +989,7 @@
         },
         "name": "Lab specimen capillary serum",
         "description": "Lab E4, E5 - capillary serum specimen requirement for a single chemistry test",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabSpecimenDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabSpecimenDefinition",
         "groupingId": "labE"
       },
       {
@@ -1004,7 +1004,7 @@
         },
         "name": "Lab specimen serum/plasma",
         "description": "Lab E2: serum/plasma specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabSpecimenDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabSpecimenDefinition",
         "groupingId": "labE"
       },
       {
@@ -1019,7 +1019,7 @@
         },
         "name": "Lab specimen 24H urine",
         "description": "Lab E3: 24H urine specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabSpecimenDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabSpecimenDefinition",
         "groupingId": "labE"
       },
       {
@@ -1034,7 +1034,7 @@
         },
         "name": "Lab specimen venous serum 3 mL",
         "description": "Lab E7 - 3 mL serum specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabSpecimenDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabSpecimenDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1049,7 +1049,7 @@
         },
         "name": "Lab specimen venous serum 2 mL",
         "description": "Lab E7 - 2 mL serum specimen",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabSpecimenDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabSpecimenDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1064,7 +1064,7 @@
         },
         "name": "Lab input observation - reason",
         "description": "Lab E1, E2: observation reason for test",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/InputObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/InputObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1079,7 +1079,7 @@
         },
         "name": "Lab input observation - vitamin d",
         "description": "Lab E6: observation clinical context for vitamin D test",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/InputObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/InputObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1094,7 +1094,7 @@
         },
         "name": "Lab observation serum Na",
         "description": "Lab E2: observation Na/serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1109,7 +1109,7 @@
         },
         "name": "Lab observation serum K",
         "description": "Lab E1, E2: observation K/serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1124,7 +1124,7 @@
         },
         "name": "Lab observation serum Cl",
         "description": "Lab E2 - definition of output observation Cl on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1139,7 +1139,7 @@
         },
         "name": "Lab observation collection duration",
         "description": "Lab E3 - definition of input/output observation urine collection duration",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1154,7 +1154,7 @@
         },
         "name": "Lab observation urine volume",
         "description": "Lab E3 - definition of input/output observation 24-hour urine collection volume",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1169,7 +1169,7 @@
         },
         "name": "Lab observation urine creat",
         "description": "Lab E3 - definition of lab observation 24-hour urine creatinine",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1184,7 +1184,7 @@
         },
         "name": "Lab observation serum/plasma creat",
         "description": "Lab E4 - definition of lab observation serum/plasma creatinine",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1199,7 +1199,7 @@
         },
         "name": "Lab observation creat renal clearance",
         "description": "Lab E5 - definition of lab observation - creatinine renal clearance in 24 hour urine and serum or plasma",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1214,7 +1214,7 @@
         },
         "name": "Lab observation vitamin D",
         "description": "Lab E6: observation vitamin D on blood serum (in French)",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE"
       },
       {
@@ -1229,7 +1229,7 @@
         },
         "name": "Lab observation HSV 2 IgM titer",
         "description": "Lab E7: observation HSV 2 IgM titer on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1244,7 +1244,7 @@
         },
         "name": "Lab observation HSV 1 IgM titer",
         "description": "Lab E7: observation HSV 1 IgM titer on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1259,7 +1259,7 @@
         },
         "name": "Lab observation HSV 2 IgM presence",
         "description": "Lab E7: observation HSV 2 IgM presence detection on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1274,7 +1274,7 @@
         },
         "name": "Lab observation HSV 1 IgM presence",
         "description": "Lab E7: observation HSV 1 IgM presence detection on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1289,7 +1289,7 @@
         },
         "name": "Lab observation Rubella IgM",
         "description": "Lab E7: observation Rubella IgM on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1304,7 +1304,7 @@
         },
         "name": "Lab observation CMV IgM",
         "description": "Lab E7: observation CMV IgM on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1319,7 +1319,7 @@
         },
         "name": "Lab observation Toxoplasma IgM",
         "description": "Lab E7: observation Toxoplasma IgM on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1334,7 +1334,7 @@
         },
         "name": "Lab observation Toxoplasma IgG",
         "description": "Lab E7: observation Toxoplasma IgG on serum",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1349,7 +1349,7 @@
         },
         "name": "Lab observation Toxoplasma Ab interpretation",
         "description": "Lab E7: observation Toxoplasma Ab interpretation",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabObservationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabObservationDefinition",
         "groupingId": "labE7"
       },
       {
@@ -1378,7 +1378,7 @@
         },
         "name": "Lab billing code and rule for vitamin D",
         "description": "Lab E6 - definition of charge item for laboratory service Vitamin D",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/LabChargeItemDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabChargeItemDefinition",
         "groupingId": "labE"
       },
       {
@@ -1435,7 +1435,7 @@
         },
         "name": "Contraindication Hypercalcemia",
         "description": "instance of ClinicalUseDefinition conveying a contraindication for hypercalcemia",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/ContraindicationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ContraindicationDefinition",
         "groupingId": "commonE"
       },
       {
@@ -1450,7 +1450,7 @@
         },
         "name": "Indication Hypocalcemia",
         "description": "instance of ClinicalUseDefinition conveying an indication for hypocalcemia",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/IndicationDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/IndicationDefinition",
         "groupingId": "commonE"
       },
       {
@@ -1465,7 +1465,7 @@
         },
         "name": "Message definition new catalog",
         "description": "MessageDefinition for messages conveying a new catalog to the receiver",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/CatalogMessageDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogMessageDefinition",
         "groupingId": "commonE"
       },
       {
@@ -1480,7 +1480,7 @@
         },
         "name": "Message definition catalog update",
         "description": "MessageDefinition for messages conveying an update to the receiver's catalog",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/CatalogMessageDefinition",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogMessageDefinition",
         "groupingId": "commonE"
       },
       {
@@ -1495,7 +1495,7 @@
         },
         "name": "Lab compendium Create test",
         "description": "Lab E8 - transaction Bundle posted for creation of a test and its supporting resources into a laboratory compendium",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/ItemTransactionRequest",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ItemTransactionRequest",
         "groupingId": "labE"
       },
       {
@@ -1510,7 +1510,7 @@
         },
         "name": "Lab compendium test created",
         "description": "Lab E8 - transaction-response Bundle returned after creation of a test and its supporting resources into a laboratory compendium",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/ItemTransactionResponse",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ItemTransactionResponse",
         "groupingId": "labE"
       },
       {
@@ -1525,7 +1525,7 @@
         },
         "name": "Device model of breast pump",
         "description": "Device model of Philips Avent Breast Pump Single",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/DeviceModel",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/DeviceModel",
         "groupingId": "devE"
       },
       {
@@ -1540,7 +1540,7 @@
         },
         "name": "Device model of presthetics-accessories",
         "description": "Titanium Healing Cap",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/DeviceModel",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/DeviceModel",
         "groupingId": "devE"
       },
       {
@@ -1555,7 +1555,7 @@
         },
         "name": "Device model of interbody fusion system",
         "description": "Imola Interbody Fusion System",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/DeviceModel",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/DeviceModel",
         "groupingId": "devE"
       },
       {
@@ -1570,7 +1570,7 @@
         },
         "name": "Clarithromycin oral antibacterial",
         "description": "Clarithromycin 25 mg/ml granule for oral suspension",
-        "exampleCanonical": "http://hl7.org/fhir/uv/order-catalog/StructureDefinition/DrugKnowledge",
+        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/DrugKnowledge",
         "groupingId": "drugE"
       }
     ],
@@ -1760,7 +1760,7 @@
       },
       {
         "code": "path-history",
-        "value": "http://hl7.org/fhir/uv/order-catalog/history.html"
+        "value": "https://github.com/oscarmakala/div-lab-ig/history.html"
       },
       {
         "code": "template-html",
