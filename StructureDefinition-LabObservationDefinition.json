@@ -33,7 +33,7 @@
       ]
     }
   ],
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "v2",

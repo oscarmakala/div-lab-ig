@@ -34,7 +34,7 @@
     }
   ],
   "purpose": "An instance of Composition conforming to this profile represents the general properties of a specific catalog of healthcare items (services/products/knowledge artefacts).\r\nSuch a resource is referenced by the resources representing the individual items of the catalog.",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "workflow",

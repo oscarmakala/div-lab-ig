@@ -34,7 +34,7 @@
     }
   ],
   "purpose": "This extension uses the datatype Period, unlike the cqm-ValidityPeriod extension, created for Composition in 2014, which uses the datatype dateTime.\r\nThus this extension enables to state a start date and/or an end date",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "rim",

@@ -34,7 +34,7 @@
     }
   ],
   "purpose": "A laboratory service is fulfilled through the execution of one or more laboratory procedures. The logical combinations of these procedures may be conjunctions (execute each of them) or disjunctions (execute at most one of them), or a mixture of both logical structures. The closest resource that may represent a service as a set of activities logically combined with this flexibility is PlanDefinition.\r\nPlanDefinition is therefore selected to represent a laboratory service, and the laboratory procedures needed to achieve this service are represented by instances of ActivityDefinition referenced by PlanDefinition, from logical groups defined in PlanDefinition.",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "workflow",

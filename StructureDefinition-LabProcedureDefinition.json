@@ -38,7 +38,7 @@
     }
   ],
   "purpose": "ActivityDefinition defines the various pieces of the definition of a laboratory procedure, such as input observations and biological/material specimens and output observations. For this purpose ActivityDefinition references instances of ObservationDefinition and SpecimenDefinition.",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "workflow",

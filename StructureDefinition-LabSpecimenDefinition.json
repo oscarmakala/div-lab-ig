@@ -34,7 +34,7 @@
     }
   ],
   "purpose": "This profile only sets MustSupport on the minimal data of a SpecimenDefinition used in a laboratory compendium.",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "v2",

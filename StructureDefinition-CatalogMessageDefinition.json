@@ -34,7 +34,7 @@
     }
   ],
   "purpose": "This profile specifies the event codes that are available for messaging the content of catalogs between a system owning a catalog and a system interested in the catalog content, in whole or in part.",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "v2",

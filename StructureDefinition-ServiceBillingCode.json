@@ -34,7 +34,7 @@
     }
   ],
   "purpose": "This extension to PlanDefinition is usable for potentially any kind of service or protocole represented by an instance of PlanDefinition",
-  "fhirVersion": "5.0.0-snapshot1",
+  
   "mapping": [
     {
       "identity": "rim",
