@@ -13,47 +13,6 @@
       "valueReference": {
         "reference": "Composition/generic-lab-compendium-header"
       }
-    },
-    {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "http://www.ama-assn.org/go/cpt",
-            "code": "CPTfakecode",
-            "display": "Potassium, serum"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "http://www.codage.ext.cnamts.fr/codif/nabm",
-            "code": "1608",
-            "display": "SANG : POTASSIUM (K)"
-          }
-        ]
-      }
-    },
-    {
-      "extension": [
-        {
-          "url": "textualSummary",
-          "valueMarkdown": "no notable particularity for billing"
-        },
-        {
-          "url": "reimbursabilitySummary",
-          "valueCode": "normal"
-        }
-      ],
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/BillingSummary"
-    },
-    {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LimitationSummary",
-      "valueString": "No specific limitation for this test"
     }
   ],
   "url": "https://github.com/oscarmakala/div-lab-ig/PlanDefinition/lab-hepatitis-c-antibodies",
