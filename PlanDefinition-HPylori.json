@@ -1,0 +1,191 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "lab-h-pylori",
+  "meta": {
+    "profile": [
+      "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition"
+    ]
+  },
+  "language": "en-US",
+  "extension": [
+    {
+      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogReference",
+      "valueReference": {
+        "reference": "Composition/generic-lab-compendium-header"
+      }
+    },
+    {
+      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.ama-assn.org/go/cpt",
+            "code": "CPTfakecode",
+            "display": "Potassium, serum"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.codage.ext.cnamts.fr/codif/nabm",
+            "code": "1608",
+            "display": "SANG : POTASSIUM (K)"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "textualSummary",
+          "valueMarkdown": "no notable particularity for billing"
+        },
+        {
+          "url": "reimbursabilitySummary",
+          "valueCode": "normal"
+        }
+      ],
+      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/BillingSummary"
+    },
+    {
+      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LimitationSummary",
+      "valueString": "No specific limitation for this test"
+    }
+  ],
+  "url": "https://github.com/oscarmakala/div-lab-ig/PlanDefinition/lab-h-pylori",
+  "identifier": [
+    {
+      "use": "official",
+      "value": "h_pylori_test"
+    }
+  ],
+  "version": "current",
+  "name": "HpyloriMeasurement",
+  "title": "H. pylori",
+  "type": {
+    "coding": [
+      {
+        "system": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/laboratory-service-definition-type",
+        "code": "test",
+        "display": "h. pylori measurement"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "date": "2020-02-05T20:00:00+02:00",
+  "publisher": "Omega Laboratories",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/orders"
+        }
+      ]
+    }
+  ],
+  "description": "H. pylori measurement on serum specimen",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "task"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "LABOE",
+            "display": "laboratory test order entry task"
+          }
+        ]
+      }
+    }
+  ],
+  "topic": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "18719-5",
+          "display": "Chemistry studies (set)"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "166312007",
+          "display": "Blood chemistry"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://www.codage.ext.cnamts.fr/codif/nabm",
+          "code": "13-01",
+          "display": "BIOCHIMIE - SANG"
+        }
+      ]
+    }
+  ],
+  "relatedArtifact": [
+    {
+      "type": "documentation",
+      "citation": "Potassium (symbol K from Latin:kalium) is a key chemical element involved in neuron function and influencing osmotic balance between cells and interstitial fluid. Depletion in potassium levels results in deficient fluid and electrolyte balance in the body as well as various nervous and cardiac dysfunctions. Studies suggest diets high in potassium can reduce the risk of hypertension and possibly stroke. Foods rich in potassium include parsley, dried apricots, potatoes, bananas, avocados, soybeans, and bran, as well as most fruits, vegetables, meat and fish. Overall, clear cases of potassium deficiency are rare in healthy individuals.",
+      "document": {
+        "url": "https://en.wikipedia.org/wiki/Potassium"
+      }
+    }
+  ],
+  "action": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "Material",
+                  "valueReference": {
+                    "reference": "SpecimenDefinition/specimen-venous-serum-single-test",
+                    "display": "specimen-venous-serum-single-test"
+                  }
+                }
+              ],
+              "url": "ExclusiveGroup"
+            }
+          ],
+          "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/SpecimenRequested"
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "https://testdirectory.questdiagnostics.com/",
+            "code": "733",
+            "display": "Potassium, Serum"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2823-3",
+            "display": "Potassium [Moles/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      "timingDuration": {
+        "value": 30,
+        "unit": "minutes",
+        "system": "http://unitsofmeasure.org",
+        "code": "mn"
+      }
+    }
+  ]
+}
