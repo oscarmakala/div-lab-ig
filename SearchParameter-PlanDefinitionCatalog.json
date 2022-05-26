@@ -1,10 +1,13 @@
 {
   "resourceType": "SearchParameter",
+  "id": "plan-definition-catalog",
   "title": "catalog",
-  "base": [ "PlanDefinition" ],
+  "base": [
+    "PlanDefinition"
+  ],
   "status": "active",
   "code": "catalog",
-  "type": "token",
+  "type": "reference",
   "expression": "PlanDefinition.extension.where(url='https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogReference').valueReference.reference(Composition)",
   "xpathUsage": "normal"
 }
