@@ -36,9 +36,6 @@
   ],
   "packageId": "hl7.fhir.lab",
   "license": "CC0-1.0",
-  "fhirVersion": [
-    "5.0.0-snapshot1"
-  ],
   "dependsOn": [
     {
       "id": "hl7tx",
@@ -550,7 +547,7 @@
           }
         ],
         "reference": {
-          "reference": "Composition/example-lab-compendium-header"
+          "reference": "Composition/generic-lab-compendium-header"
         },
         "name": "A clinical laboratory catalog",
         "description": "Lab E* - Catalog header representing a clinical laboratory compendium, used by all lab examples in this implementation guide",
@@ -576,26 +573,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Composition"
-          }
-        ],
-        "reference": {
-          "reference": "Composition/example-medication-catalog-header"
-        },
-        "name": "Medications authorized for prescription in Healthyland",
-        "description": "Catalog header of a catalog of medications, used by all medication examples in this implementation guide",
-        "exampleCanonical": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogHeader",
-        "groupingId": "drugE"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "PlanDefinition"
           }
         ],
         "reference": {
-          "reference": "PlanDefinition/example-lab-service-potassium-serum"
+          "reference": "PlanDefinition/lab-hepatitis-c-antibodies"
         },
         "name": "Lab service serum K",
         "description": "Lab E1 - simple test laboratory service - serum K",
@@ -610,7 +592,7 @@
           }
         ],
         "reference": {
-          "reference": "PlanDefinition/example-lab-panel-blood-electrolyte"
+          "reference": "PlanDefinition/lab-h-pylori"
         },
         "name": "Lab service blood electrolyte",
         "description": "Lab E2 - panel laboratory service - electrolyte on blood or plasma",
@@ -625,7 +607,7 @@
           }
         ],
         "reference": {
-          "reference": "PlanDefinition/example-lab-panel-urine24h-creatinine"
+          "reference": "PlanDefinition/lab-service-widal"
         },
         "name": "Lab service 24H urine creat",
         "description": "Lab E3, E5 - panel laboratory service - creatinine on 24-hour urine specimen",
@@ -655,7 +637,7 @@
           }
         ],
         "reference": {
-          "reference": "PlanDefinition/example-lab-panel-urine24h-creatinine-clearance"
+          "reference": "PlanDefinition/lab-service-widal-clearance"
         },
         "name": "Lab service creat renal clearance",
         "description": "Lab E5 - panel laboratory service - creatinine renal clearance using 24-hour urine specimen and serum or plasma specimen",
@@ -970,7 +952,7 @@
           }
         ],
         "reference": {
-          "reference": "SpecimenDefinition/example-specimen-venous-serum-single-test"
+          "reference": "SpecimenDefinition/specimen-venous-serum-single-test"
         },
         "name": "Lab specimen venous serum",
         "description": "Lab E1, E4, E5, E6 - venous serum specimen requirement for a single chemistry test",
