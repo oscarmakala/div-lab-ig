@@ -1,0 +1,63 @@
+{
+  "resourceType": "Composition",
+  "id": "71739",
+  "status": "final",
+  "date": "2022-02-08",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156600005",
+        "display": "Device setting parameter"
+      }
+    ]
+  },
+  "identifier": {
+    "use": "official",
+    "value": "omega"
+  },
+  "title": "Device configurations",
+  "confidentiality": "L",
+  "section": [
+    {
+      "title": "App configuration",
+      "mode": "working",
+      "focus": {
+        "reference": "Binary/108f294e-e4db-4217-8a49-0392d7133b2c",
+        "identifier": {
+          "value": "application"
+        }
+      }
+    },
+    {
+      "title": "Login configuration",
+      "mode": "working",
+      "focus": {
+        "reference": "Binary/b64a6c96-67c5-4d5a-8e38-a467fd8ef782",
+        "identifier": {
+          "value": "login"
+        }
+      }
+    },
+    {
+      "title": "Sync configuration",
+      "mode": "working",
+      "focus": {
+        "reference": "Binary/ad3a6e96-f759-4cf4-93f5-cd9f791255ec",
+        "identifier": {
+          "value": "sync"
+        }
+      }
+    },
+    {
+      "title": "Add Patient",
+      "focus": {
+        "reference": "Questionnaire/322488d1-570c-4592-b474-06333938971c",
+        "identifier": {
+          "value": "patient-registration"
+        }
+      },
+      "mode": "working"
+    }
+  ]
+}
