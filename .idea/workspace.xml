@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48ff75b6-8423-4809-93ca-2cde5350343d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Binary-OmegaLoginConfiguration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary-OmegaAppConfiguration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary-OmegaLoginConfiguration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary-OmegaSyncConfiguration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-Omega.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practitioner-foo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questionnaire-PatientRegistration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="48ff75b6-8423-4809-93ca-2cde5350343d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +192,7 @@
       <workItem from="1655630812340" duration="2203000" />
       <workItem from="1655752594067" duration="1807000" />
       <workItem from="1655828592885" duration="5000" />
-      <workItem from="1655898182859" duration="1532000" />
+      <workItem from="1655898182859" duration="1877000" />
     </task>
     <servers />
   </component>
