@@ -1,0 +1,23 @@
+{
+  "resourceType": "ChargeItemDefinition",
+  "id": "lab-hepatitis-c-antibodies",
+  "meta": {
+    "profile": [
+      "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabChargeItemDefinition"
+    ]
+  },
+  "url": "https://github.com/oscarmakala/div-lab-ig/ChargeItemDefinition/lab-hepatitis-c-antibodies",
+  "version": "current",
+  "title": "Hepatitis C Antibodies Charge",
+  "status": "active",
+  "propertyGroup": [
+    {
+      "priceComponent": [
+        {
+          "type": "base",
+          "amount": 1000
+        }
+      ]
+    }
+  ]
+}

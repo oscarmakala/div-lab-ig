@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "plan-definition-status",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-plan-definition-status.html\"><code>http://hl7.org/fhir/plan-definition-status</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-plan-definition-status.html#plan-definition-status-issued\">issued</a></td><td>Issued</td><td>the invoice has been finalized and sent to the recipient.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-plan-definition-status.html#plan-definition-status-balanced\">balanced</a></td><td>Balanced</td><td>the invoice has been balaced / completely paid.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-plan-definition-status.html#plan-definition-status-cancelled\">cancelled</a></td><td>Cancelled</td><td>the invoice was cancelled.</td></tr></table></li></ul></div>"
+  },
+  "url": "https://github.com/oscarmakala/div-lab-ig/ValueSet/plan-definition-status",
+  "version": "1.0.0",
+  "name": "PlanDefinitionStatusVS",
+  "title": "Status (PlanDefinition)",
+  "status": "active",
+  "date": "2022-05-31T10:56:28+00:00",
+  "publisher": "omega Initiative",
+  "contact": [
+    {
+      "name": "omega Initiative",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.openimis.org"
+        }
+      ]
+    },
+    {
+      "name": "Makala Oscar",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "makalaoscar@gmail.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the status for a Plan Definition. Values limited by openIMIS. Can not be extended.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/plan-definition-status",
+        "concept": [
+          {
+            "code": "active",
+            "display": "active"
+          },
+          {
+            "code": "disabled",
+            "display": "disabled"
+          }
+        ]
+      }
+    ]
+  }
+}
