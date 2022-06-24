@@ -17,7 +17,7 @@
     {
       "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
       "valueReference": {
-        "reference": "ChargeItemDefinition/lab-hepatitis-c-antibodies"
+        "reference": "ChargeItemDefinition/cid-hepatitis-c-antibodies"
       }
     }
   ],

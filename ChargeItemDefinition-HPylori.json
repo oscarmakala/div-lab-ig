@@ -1,12 +1,12 @@
 {
   "resourceType": "ChargeItemDefinition",
-  "id": "cid-hepatitis-c-antibodies",
+  "id": "cid-lab-h-pylori",
   "meta": {
     "profile": [
       "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition"
     ]
   },
-  "url": "https://github.com/oscarmakala/div-lab-ig/ChargeItemDefinition/cid-hepatitis-c-antibodies",
+  "url": "https://github.com/oscarmakala/div-lab-ig/ChargeItemDefinition/cid-lab-h-pylori",
   "status": "active",
   "propertyGroup": [
     {

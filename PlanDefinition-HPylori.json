@@ -13,6 +13,12 @@
       "valueReference": {
         "reference": "Composition/generic-lab-compendium-header"
       }
+    },
+    {
+      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
+      "valueReference": {
+        "reference": "ChargeItemDefinition/cid-lab-h-pylori"
+      }
     }
   ],
   "url": "https://github.com/oscarmakala/div-lab-ig/PlanDefinition/lab-h-pylori",
