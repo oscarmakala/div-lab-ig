@@ -3,10 +3,9 @@
   "id": "cid-lab-service-widal",
   "meta": {
     "profile": [
-      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericchargeitmedefinition/v2"
     ]
   },
-  "url": "http://omega.com/healthcare/IS-H/fhir/ChargeItemDefinition/cid-lab-service-widal",
   "status": "active",
   "propertyGroup": [
     {
@@ -14,7 +13,7 @@
         {
           "type": "base",
           "amount": {
-            "value": 1000,
+            "value": 2000,
             "currency": "TZS"
           }
         }
