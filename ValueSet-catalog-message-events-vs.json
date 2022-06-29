@@ -9,9 +9,9 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-catalog-message-events.html\"><code>https://github.com/oscarmakala/div-lab-ig/CodeSystem/catalog-message-events</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-catalog-message-events.html#catalog-message-events-full-catalog\">full-catalog</a></td><td>full catalog for the recipient</td><td>The content of the message represents a full catalog that the message recepient is expected to take as is, replacing any preexisting content for this catalog.</td></tr><tr><td><a href=\"CodeSystem-catalog-message-events.html#catalog-message-events-update-catalog\">update-catalog</a></td><td>update for a catalog of the recipient</td><td>The content of the message represents an update to an existing catalog of the message recepient who is expected to integrate this update.</td></tr></table></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-catalog-message-events.html\"><code>http://omega.com/healthcare/IS-H/fhir/CodeSystem/catalog-message-events</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-catalog-message-events.html#catalog-message-events-full-catalog\">full-catalog</a></td><td>full catalog for the recipient</td><td>The content of the message represents a full catalog that the message recepient is expected to take as is, replacing any preexisting content for this catalog.</td></tr><tr><td><a href=\"CodeSystem-catalog-message-events.html#catalog-message-events-update-catalog\">update-catalog</a></td><td>update for a catalog of the recipient</td><td>The content of the message represents an update to an existing catalog of the message recepient who is expected to integrate this update.</td></tr></table></li></ul></div>"
   },
-  "url": "https://github.com/oscarmakala/div-lab-ig/ValueSet/catalog-message-events-vs",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/catalog-message-events-vs",
   "version": "current",
   "name": "CatalogMessageEventVS",
   "title": "Message event codes for exchanging order catalog content",
@@ -44,7 +44,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/catalog-message-events",
+        "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/catalog-message-events",
         "concept": [
           {
             "code": "full-catalog",

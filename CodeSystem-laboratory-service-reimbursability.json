@@ -11,7 +11,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <h2>Laboratory services compendium</h2>\n      <div>\n        <p>This CodeSystem provides  coded concepts to represent the coarse categories of reimbursement that may affect a laboratory service</p>\n      </div>\n      <ul>\n        <li>\n          <p>Contains:</p>\n          <table class=\"none\">\n            <tr>\n              <td>\n                <b> Code</b>\n              </td>\n              <td>\n                <b> Display</b>\n              </td>\n             </tr>\n            <tr>\n              <td>none</td>\n              <td>no reimbursement provided for the service in general</td>\n            </tr>\n            <tr>\n              <td>normal</td>\n              <td>normal reimbursement dispositions applicable to the service</td>\n            </tr>\n            <tr>\n              <td>conditional</td>\n              <td>reimbursement of service subject to conditions</td>\n            </tr>\n            <tr>\n              <td>partial</td>\n              <td>normal reimbursement limited to a part of the service</td>\n            </tr>\n            <tr>\n              <td>partial-conditional</td>\n              <td>reimbursement limited to a part of the service and subject to conditions</td>\n            </tr>\n           </table>\n        </li>\n      </ul>\n    </div>"
   },
-  "url": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/laboratory-service-reimbursability",
+  "url": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-reimbursability",
   "version": "current",
   "name": "LaboratoryServiceReimbursability",
   "title": "Kinds of reibursability coarse categories for a laboratory service",

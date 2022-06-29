@@ -3,45 +3,36 @@
   "id": "lab-hepatitis-c-antibodies",
   "meta": {
     "profile": [
-      "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
     ]
   },
-  "language": "en-US",
   "extension": [
     {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogReference",
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogReference",
       "valueReference": {
         "reference": "Composition/generic-lab-compendium-header"
       }
     },
     {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/ServiceBillingCode",
       "valueReference": {
         "reference": "ChargeItemDefinition/cid-hepatitis-c-antibodies"
       }
     }
   ],
-  "url": "https://github.com/oscarmakala/div-lab-ig/PlanDefinition/lab-hepatitis-c-antibodies",
-  "identifier": [
-    {
-      "use": "official",
-      "value": "hepatitis_c_antibodies"
-    }
-  ],
-  "version": "current",
+  "url": "http://omega.com/healthcare/IS-H/fhir/PlanDefinition/lab-hepatitis-c-antibodies",
   "name": "hepatitisCAntibodiesMeasurement",
   "title": "Hepatitis C Antibodies",
   "type": {
     "coding": [
       {
-        "system": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/laboratory-service-definition-type",
+        "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
         "code": "test",
         "display": "Hepatitis C Antibodies measurement"
       }
     ]
   },
   "status": "active",
-  "publisher": "Omega Laboratories",
   "description": "H. pylori measurement on serum specimen",
   "useContext": [
     {

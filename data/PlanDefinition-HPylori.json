@@ -1,0 +1,98 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "lab-h-pylori",
+  "meta": {
+    "profile": [
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogReference",
+      "valueReference": {
+        "reference": "Composition/generic-lab-compendium-header"
+      }
+    },
+    {
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/ServiceBillingCode",
+      "valueReference": {
+        "reference": "ChargeItemDefinition/cid-lab-h-pylori"
+      }
+    }
+  ],
+  "url": "http://omega.com/healthcare/IS-H/fhir/PlanDefinition/lab-h-pylori",
+  "name": "HpyloriMeasurement",
+  "title": "H. pylori",
+  "type": {
+    "coding": [
+      {
+        "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
+        "code": "test",
+        "display": "h. pylori measurement"
+      }
+    ]
+  },
+  "status": "active",
+  "publisher": "Omega Laboratories",
+  "description": "H. pylori measurement on serum specimen",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "task"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "LABOE",
+            "display": "laboratory test order entry task"
+          }
+        ]
+      }
+    }
+  ],
+  "action": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "Material",
+                  "valueReference": {
+                    "reference": "SpecimenDefinition/specimen-venous-serum-single-test",
+                    "display": "specimen-venous-serum-single-test"
+                  }
+                }
+              ],
+              "url": "ExclusiveGroup"
+            }
+          ],
+          "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/SpecimenRequested"
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "https://testdirectory.questdiagnostics.com/",
+            "code": "733",
+            "display": "Potassium, Serum"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2823-3",
+            "display": "Potassium [Moles/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      "timingDuration": {
+        "value": 30,
+        "unit": "minutes",
+        "system": "http://unitsofmeasure.org",
+        "code": "mn"
+      }
+    }
+  ]
+}

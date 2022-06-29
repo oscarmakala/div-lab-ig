@@ -1,0 +1,28 @@
+{
+  "resourceType": "Practitioner",
+  "id": "49851e6d-93eb-45e0-bfcf-cbf30a1c1ca9",
+  "meta": {
+    "profile": [
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericpractitioner/v2"
+    ]
+  },
+  "active": true,
+  "name": [
+    {
+      "text": "Oscar Makala",
+      "family": "Makala",
+      "given": [
+        "Oscar"
+      ]
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "city": "Dar Es Salaam",
+      "country": "TZ"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1988-08-29"
+}

@@ -1,12 +1,12 @@
 {
   "resourceType": "ChargeItemDefinition",
-  "id": "cid-hepatitis-c-antibodies",
+  "id": "cid-lab-service-widal",
   "meta": {
     "profile": [
-      "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
     ]
   },
-  "url": "https://github.com/oscarmakala/div-lab-ig/ChargeItemDefinition/cid-hepatitis-c-antibodies",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ChargeItemDefinition/cid-lab-service-widal",
   "status": "active",
   "propertyGroup": [
     {

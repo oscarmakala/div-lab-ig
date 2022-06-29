@@ -3,7 +3,7 @@
   "id": "generic-lab-compendium-header",
   "meta": {
     "profile": [
-      "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogHeader"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogHeader"
     ]
   },
   "language": "en-US",

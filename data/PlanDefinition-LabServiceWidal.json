@@ -3,25 +3,25 @@
   "id": "lab-service-widal",
   "meta": {
     "profile": [
-      "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/LabServiceDefinition"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
     ]
   },
   "language": "en-US",
   "extension": [
     {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogReference",
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogReference",
       "valueReference": {
         "reference": "Composition/generic-lab-compendium-header"
       }
     },
     {
-      "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/ServiceBillingCode",
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/ServiceBillingCode",
       "valueReference": {
         "reference": "ChargeItemDefinition/cid-lab-service-widal"
       }
     }
   ],
-  "url": "https://github.com/oscarmakala/div-lab-ig/PlanDefinition/lab-service-widal",
+  "url": "http://omega.com/healthcare/IS-H/fhir/PlanDefinition/lab-service-widal",
   "identifier": [
     {
       "use": "official",
@@ -34,7 +34,7 @@
   "type": {
     "coding": [
       {
-        "system": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/laboratory-service-definition-type",
+        "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
         "code": "test",
         "display": "widal measurement"
       }
@@ -128,7 +128,7 @@
               "url": "ExclusiveGroup"
             }
           ],
-          "url": "https://github.com/oscarmakala/div-lab-ig/StructureDefinition/SpecimenRequested"
+          "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/SpecimenRequested"
         }
       ],
       "code": {

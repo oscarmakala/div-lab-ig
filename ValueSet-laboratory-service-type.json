@@ -9,9 +9,9 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-laboratory-service-definition-type.html\"><code>https://github.com/oscarmakala/div-lab-ig/CodeSystem/laboratory-service-definition-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-laboratory-service-definition-type.html#laboratory-service-definition-type-test\">test</a></td><td>unitary measurement performed on an in vitro biologic specimen</td><td>laboratory service performing a single measurement</td></tr><tr><td><a href=\"CodeSystem-laboratory-service-definition-type.html#laboratory-service-definition-type-panel\">panel</a></td><td>collection of tests and panels performed on one or more in vitro biologic specimens</td><td>laboratory service comprising two or more tests and/or panels</td></tr></table></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-laboratory-service-definition-type.html\"><code>http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-laboratory-service-definition-type.html#laboratory-service-definition-type-test\">test</a></td><td>unitary measurement performed on an in vitro biologic specimen</td><td>laboratory service performing a single measurement</td></tr><tr><td><a href=\"CodeSystem-laboratory-service-definition-type.html#laboratory-service-definition-type-panel\">panel</a></td><td>collection of tests and panels performed on one or more in vitro biologic specimens</td><td>laboratory service comprising two or more tests and/or panels</td></tr></table></li></ul></div>"
   },
-  "url": "https://github.com/oscarmakala/div-lab-ig/ValueSet/laboratory-service-type",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/laboratory-service-type",
   "version": "current",
   "name": "LaboratoryServiceType",
   "title": "Types of diagnostic services performed by a laboratory",
@@ -44,7 +44,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://github.com/oscarmakala/div-lab-ig/CodeSystem/laboratory-service-definition-type",
+        "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
         "concept": [
           {
             "code": "test",

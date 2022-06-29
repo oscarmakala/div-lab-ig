@@ -8,6 +8,6 @@
   "status": "active",
   "code": "catalog",
   "type": "reference",
-  "expression": "PlanDefinition.extension('https://github.com/oscarmakala/div-lab-ig/StructureDefinition/CatalogReference').value.as(Reference)",
+  "expression": "PlanDefinition.extension('http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogReference').value.as(Reference)",
   "xpathUsage": "normal"
 }
