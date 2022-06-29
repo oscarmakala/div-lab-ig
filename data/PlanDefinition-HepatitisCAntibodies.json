@@ -3,12 +3,12 @@
   "id": "lab-hepatitis-c-antibodies",
   "meta": {
     "profile": [
-      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/labservicedefinition/v2"
     ]
   },
   "extension": [
     {
-      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogReference",
+      "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogreference/v2",
       "valueReference": {
         "reference": "Composition/generic-lab-compendium-header"
       }

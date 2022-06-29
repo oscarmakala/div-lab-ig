@@ -3,10 +3,9 @@
   "id": "cid-hepatitis-c-antibodies",
   "meta": {
     "profile": [
-      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabServiceDefinition"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericchargeitmedefinition/v2"
     ]
   },
-  "url": "http://omega.com/healthcare/IS-H/fhir/ChargeItemDefinition/cid-hepatitis-c-antibodies",
   "status": "active",
   "propertyGroup": [
     {

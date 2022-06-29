@@ -1,6 +1,6 @@
 {
   "resourceType": "Practitioner",
-  "id": "49851e6d-93eb-45e0-bfcf-cbf30a1c1ca9",
+  "id": "25fc246d-5782-4d36-811c-a75d759cf97a",
   "meta": {
     "profile": [
       "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericpractitioner/v2"
@@ -9,10 +9,9 @@
   "active": true,
   "name": [
     {
-      "text": "Oscar Makala",
       "family": "Makala",
       "given": [
-        "Oscar"
+        "Allan"
       ]
     }
   ],

@@ -3,7 +3,7 @@
   "id": "generic-lab-compendium-header",
   "meta": {
     "profile": [
-      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/CatalogHeader"
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogheader/v2"
     ]
   },
   "language": "en-US",

@@ -1,6 +1,6 @@
 {
   "resourceType": "Organization",
-  "id": "42010aee-26b3-1eea-97a5-73f1b5e523b6",
+  "id": "b533c855-c00b-42a4-aa11-577bb986b8d5",
   "meta": {
     "profile": [
       "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericorganization/v2"
@@ -19,16 +19,10 @@
     }
   ],
   "name": "Omega Laboratory",
-  "alias": [
-    "Omega"
-  ],
   "address": [
     {
       "city": "Dar Es Salaam",
-      "country": "TZ",
-      "period": {
-        "start": "2022-01-01T00:00:00+01:00"
-      }
+      "country": "TZ"
     }
   ]
 }
