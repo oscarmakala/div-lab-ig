@@ -1,0 +1,23 @@
+{
+  "resourceType": "Patient",
+  "id": "a2054e9b-b97e-4689-82b7-b7f2664c7741",
+  "meta": {
+    "profile": [
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericpatient/v2"
+    ]
+  },
+  "active": true,
+  "name": [
+    {
+      "family": "Makala",
+      "given": [
+        "Oscar"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1988-08-29",
+  "managingOrganization": {
+    "reference": "Organization/b533c855-c00b-42a4-aa11-577bb986b8d5"
+  }
+}

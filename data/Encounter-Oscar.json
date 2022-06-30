@@ -1,0 +1,18 @@
+{
+  "resourceType": "Encounter",
+  "id": "6fe09799-c10e-484c-b889-47bb8dc29dd7",
+  "status": "arrived",
+  "subject": {
+    "reference": "Patient/a2054e9b-b97e-4689-82b7-b7f2664c7741"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/25fc246d-5782-4d36-811c-a75d759cf97a"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/b533c855-c00b-42a4-aa11-577bb986b8d5"
+  }
+}

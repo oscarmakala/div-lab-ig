@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "id": "absence-reason",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-absenceReason",
+  "version": "1.0",
+  "name": "AbsenceReason",
+  "status": "active",
+  "date": "2021-08-01",
+  "publisher": "OMEGA SE",
+  "description": "This SAP ValueSet contains possible absence reasons.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://omega.com/healthcare/fhir/CodeSystem/encounter-absenceReason"
+      }
+    ]
+  }
+}

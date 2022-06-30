@@ -1,0 +1,338 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GenericEncounterV2",
+  "meta": {
+    "versionId": "10",
+    "lastUpdated": "2022-04-29T09:17:34.2122238+00:00"
+  },
+  "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericencounter/v2",
+  "version": "SAP_ISH_R4_GV2",
+  "name": "GenericEncounterV2",
+  "title": "Encounter, SAP Generic, Version2",
+  "status": "active",
+  "date": "2021-11-04T10:56:54.9829665Z",
+  "description": "Country-independent profile for Encounter",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.extension",
+        "path": "Encounter.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Encounter.extension:subjectStatus",
+        "path": "Encounter.extension",
+        "sliceName": "subjectStatus",
+        "short": "arrived | triaged | on-leave | departed",
+        "definition": "arrived | triaged | on-leave | departed",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://omega.com/healthcare/fhir/StructureDefinition/Encounter-subjectStatus"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.extension:subjectStatus.value[x].coding",
+        "path": "Encounter.extension.value[x].coding",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-subjectStatus"
+        }
+      },
+      {
+        "id": "Encounter.extension:institution",
+        "path": "Encounter.extension",
+        "sliceName": "institution",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://omega.com/healthcare/fhir/StructureDefinition/institution"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.extension:absence",
+        "path": "Encounter.extension",
+        "sliceName": "absence",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://omega.com/healthcare/fhir/StructureDefinition/Encounter-absence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.extension:absence.extension",
+        "path": "Encounter.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Encounter.extension:absence.extension:reason",
+        "path": "Encounter.extension.extension",
+        "sliceName": "reason",
+        "min": 0,
+        "binding": {
+          "strength": "example",
+          "description": "reasons for absences during an inpatient stay",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-absenceReason"
+        }
+      },
+      {
+        "id": "Encounter.identifier",
+        "path": "Encounter.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "short": "planned | in-progress | finished | cancelled | enter-in-error | unknow",
+        "definition": "planned | in-progress | finished | cancelled | enter-in-error | unknow",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-status"
+        }
+      },
+      {
+        "id": "Encounter.statusHistory",
+        "path": "Encounter.statusHistory",
+        "mustSupport": false
+      },
+      {
+        "id": "Encounter.class",
+        "path": "Encounter.class",
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "description": "SAP Classification of the encounter",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-class"
+        }
+      },
+      {
+        "id": "Encounter.type",
+        "path": "Encounter.type",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.type:encounterLevel",
+        "path": "Encounter.type",
+        "sliceName": "encounterLevel",
+        "short": "treatment-level encounter",
+        "binding": {
+          "strength": "extensible",
+          "description": "The type of encounter",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-level"
+        }
+      },
+      {
+        "id": "Encounter.type:encounterLevel.coding.code",
+        "path": "Encounter.type.coding.code",
+        "fixedCode": "treatment-level encounter"
+      },
+      {
+        "id": "Encounter.type:encounterCategory",
+        "path": "Encounter.type",
+        "sliceName": "encounterCategory",
+        "short": "previsit | postvisit | outsurgery | initial | insurgery | newborn | companion | medcompainian | delivery | other",
+        "binding": {
+          "strength": "extensible",
+          "description": "The type of encounter",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/valueSet/encounter-category"
+        }
+      },
+      {
+        "id": "Encounter.subject",
+        "path": "Encounter.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant",
+        "path": "Encounter.participant",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.type",
+        "path": "Encounter.participant.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.type.coding",
+        "path": "Encounter.participant.type.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.type.coding.code",
+        "path": "Encounter.participant.type.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.period",
+        "path": "Encounter.participant.period",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.individual",
+        "path": "Encounter.participant.individual",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.individual.identifier",
+        "path": "Encounter.participant.individual.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.value",
+        "path": "Encounter.participant.individual.identifier.value",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.appointment",
+        "path": "Encounter.appointment",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.period",
+        "path": "Encounter.period",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.period.extension",
+        "path": "Encounter.period.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Encounter.period.extension:plannedEnd",
+        "path": "Encounter.period.extension",
+        "sliceName": "plannedEnd",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://omega.com/healthcare/fhir/StructureDefinition/Encounter-plannedEnd"
+            ]
+          }
+        ],
+        "mustSupport": false
+      },
+      {
+        "id": "Encounter.period.start",
+        "path": "Encounter.period.start",
+        "mustSupport": false
+      },
+      {
+        "id": "Encounter.period.end",
+        "path": "Encounter.period.end",
+        "mustSupport": false
+      },
+      {
+        "id": "Encounter.diagnosis",
+        "path": "Encounter.diagnosis",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.diagnosis.use",
+        "path": "Encounter.diagnosis.use",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-diagnosis-role"
+        }
+      },
+      {
+        "id": "Encounter.account",
+        "path": "Encounter.account",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.location",
+        "path": "Encounter.location",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.location.location",
+        "path": "Encounter.location.location",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.location.status",
+        "path": "Encounter.location.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.location.physicalType",
+        "path": "Encounter.location.physicalType",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://omega.com/healthcare/IS-H/fhir/ValueSet/encounter-location-physical-type"
+        }
+      },
+      {
+        "id": "Encounter.location.period",
+        "path": "Encounter.location.period",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "mustSupport": true
+      }
+    ]
+  }
+}
