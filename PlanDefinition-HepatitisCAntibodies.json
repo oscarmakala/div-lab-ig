@@ -23,5 +23,18 @@
   "name": "hepatitisCAntibodiesMeasurement",
   "title": "Hepatitis C Antibodies",
   "status": "active",
-  "description": "H. pylori measurement on serum specimen"
+  "description": "H. pylori measurement on serum specimen",
+  "action": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/99IHE",
+            "code": "LAB170",
+            "display": "Hepatitis C"
+          }
+        ]
+      }
+    }
+  ]
 }

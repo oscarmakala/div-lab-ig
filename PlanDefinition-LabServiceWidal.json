@@ -22,6 +22,46 @@
   ],
   "name": "WidalMeasurement",
   "title": "WIDAL",
+  "type": {
+    "coding": [
+      {
+        "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
+        "code": "test",
+        "display": "unitary measurement performed on an in vitro biologic specimen"
+      }
+    ]
+  },
   "status": "active",
-  "description": "Widal measurement on serum specimen"
+  "action": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "Material",
+                  "valueReference": {
+                    "reference": "SpecimenDefinition/serum",
+                    "display": "Serum"
+                  }
+                }
+              ],
+              "url": "ExclusiveGroup"
+            }
+          ],
+          "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/SpecimenRequested"
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/99IHE",
+            "code": "LAB348",
+            "display": "Widal Test"
+          }
+        ]
+      }
+    }
+  ]
 }

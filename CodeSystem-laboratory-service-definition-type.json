@@ -7,10 +7,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <h2>Laboratory services compendium</h2>\n      <div>\n        <p>This CodeSystem provides additional coded concepts for <i>PlanDefinition.type</i> to cover the representation of laboratory diagnostic services</p>\n      </div>\n      <ul>\n        <li>\n          <p>Contains:</p>\n          <table class=\"none\">\n            <tr>\n              <td>\n                <b> Code</b>\n              </td>\n              <td>\n                <b> Display</b>\n              </td>\n             </tr>\n            <tr>\n              <td>test</td>\n              <td>unitary measurement performed on an in vitro biologic specimen</td>\n            </tr>\n            <tr>\n              <td>panel</td>\n              <td>collection of tests and panels performed on one or more in vitro biologic specimens</td>\n            </tr>\n           </table>\n        </li>\n      </ul>\n    </div>"
-  },
   "url": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
   "version": "current",
   "name": "LaboratoryServiceDefinitionType",

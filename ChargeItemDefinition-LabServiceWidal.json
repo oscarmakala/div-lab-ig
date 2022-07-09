@@ -1,11 +1,6 @@
 {
   "resourceType": "ChargeItemDefinition",
   "id": "cid-lab-service-widal",
-  "meta": {
-    "profile": [
-      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericchargeitmedefinition/v2"
-    ]
-  },
   "status": "active",
   "propertyGroup": [
     {

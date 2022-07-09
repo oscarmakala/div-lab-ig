@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "orderingcodesV2",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/orderingcodes/v2",
+  "version": "20111213",
+  "name": "Laboratory Universal Service Identifier",
+  "title": "Laboratory Universal Service Identifier",
+  "status": "active",
+  "publisher": "omega Initiative",
+  "contact": [
+    {
+      "name": "omega Initiative",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.openimis.org"
+        }
+      ]
+    },
+    {
+      "name": "Makala Oscar",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "makalaoscar@gmail.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/99IHE",
+        "concept": [
+          {
+            "code": "LAB348",
+            "display": "Widal Test"
+          },
+          {
+            "code": "LAB170",
+            "display": "Hepatitis C"
+          }
+        ]
+      }
+    ]
+  }
+}

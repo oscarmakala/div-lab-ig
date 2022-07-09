@@ -1,0 +1,10 @@
+{
+  "resourceType": "SpecimenDefinition",
+  "id": "serum",
+  "meta": {
+    "profile": [
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabSpecimenDefinition"
+    ]
+  },
+  "status": "active"
+}
