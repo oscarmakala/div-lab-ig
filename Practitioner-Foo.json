@@ -1,7 +1,17 @@
 {
   "resourceType": "Practitioner",
-  "id": "25fc246d-5782-4d36-811c-a75d759cf97a",
+  "id": "49851e6d-93eb-45e0-bfcf-cbf30a1c1ca9",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+      "value": "49851e6d-93eb-45e0-bfcf-cbf30a1c1ca9"
+    }
+  ],
   "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-07-10T15:10:21.031+00:00",
+    "source": "#9Uwfyz8LKaHy2JT4",
     "profile": [
       "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/genericpractitioner/v2"
     ]

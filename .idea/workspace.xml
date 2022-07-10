@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48ff75b6-8423-4809-93ca-2cde5350343d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpecimenDefinition-serum.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ValueSet-OrderingCodes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary-OmegaSyncConfiguration.json" beforeDir="false" afterPath="$PROJECT_DIR$/Binary-OmegaSyncConfiguration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChargeItemDefinition-LabHepatitisCAntiBodies.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeItemDefinition-LabHepatitisCAntiBodies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChargeItemDefinition-LabServiceWidal.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeItemDefinition-LabServiceWidal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeSystem-laboratory-service-definition-type.json" beforeDir="false" afterPath="$PROJECT_DIR$/CodeSystem-laboratory-service-definition-type.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDefinition-HepatitisCAntibodies.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlanDefinition-HepatitisCAntibodies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDefinition-LabServiceWidal.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlanDefinition-LabServiceWidal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practitioner-Foo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practitioner-Foo.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +205,8 @@
       <workItem from="1657046934249" duration="3735000" />
       <workItem from="1657213549276" duration="6306000" />
       <workItem from="1657289074497" duration="5153000" />
-      <workItem from="1657350981759" duration="1678000" />
+      <workItem from="1657350981759" duration="7147000" />
+      <workItem from="1657467045080" duration="7000" />
     </task>
     <servers />
   </component>
