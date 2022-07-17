@@ -1,0 +1,26 @@
+{
+  "resourceType": "ObservationDefinition",
+  "id": "observation-urinalysis-urine-color",
+  "meta": {
+    "profile": [ "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabObservationDefinition" ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "laboratory",
+      "display": "Laboratory"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "50553-7",
+      "display": "Color Auto (U)"
+    } ]
+  },
+  "permittedDataType": [ "CodeableConcept" ],
+  "multipleResultsAllowed": false,
+  "validCodedValueSet": {
+    "reference": "ValueSet/urinecolorcodesv2"
+  }
+}

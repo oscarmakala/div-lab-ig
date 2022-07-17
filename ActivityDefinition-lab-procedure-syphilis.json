@@ -1,0 +1,12 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "lab-procedure-syphilis",
+  "meta": {
+    "profile": [ "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabProcedureDefinition" ]
+  },
+  "name": "SyphilisProcedure",
+  "kind": "ServiceRequest",
+  "observationResultRequirement": [ {
+    "reference": "ObservationDefinition/observation-syphilis"
+  } ]
+}

@@ -1,0 +1,50 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "lab-service-urinalysis",
+  "meta": {
+    "profile": [ "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/labservicedefinition/v2" ]
+  },
+  "extension": [ {
+    "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogreference/v2",
+    "valueReference": {
+      "reference": "Composition/omega-lab-compendium-header"
+    }
+  }, {
+    "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogreference/v2",
+    "valueReference": {
+      "reference": "ChargeItemDefinition/cid-urinalysis"
+    }
+  } ],
+  "name": "Urinalysis",
+  "title": "Urinalysis",
+  "type": {
+    "coding": [ {
+      "system": "http://omega.com/healthcare/IS-H/fhir/CodeSystem/laboratory-service-definition-type",
+      "code": "panel",
+      "display": "Procedure for Urinalysis"
+    } ]
+  },
+  "status": "active",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task"
+    }
+  }, {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "LABOE",
+      "display": "laboratory test order entry task"
+    }
+  } ],
+  "action": [ {
+    "code": [ {
+      "coding": [ {
+        "system": "http://omega.com/healthcare/IS_H//fhir/orderingcodes",
+        "code": "LAB330",
+        "display": "Urinalysis"
+      } ]
+    } ],
+    "definitionCanonical": "ActivityDefinition/lab-procedure-urinalysis"
+  } ]
+}

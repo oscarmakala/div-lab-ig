@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "urinecolorcodesv2",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/urinecolorcodesv2/v2",
+  "status": "active",
+  "compose": {
+    "include": [ {
+      "concept": [ {
+        "code": "Straw",
+        "display": "Straw"
+      }, {
+        "code": "PaleYellow",
+        "display": "Pale Yellow"
+      }, {
+        "code": "DeepYellow",
+        "display": "Deep Yellow"
+      } ]
+    } ]
+  }
+}

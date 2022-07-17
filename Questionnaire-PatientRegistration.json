@@ -1,6 +1,12 @@
 {
   "resourceType": "Questionnaire",
   "id": "322488d1-570c-4592-b474-06333938971c",
+  "identifier": [
+    {
+      "use": "official",
+      "value": "patient-registration"
+    }
+  ],
   "language": "en",
   "status": "active",
   "date": "2020-11-18T07:24:47.111Z",

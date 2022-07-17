@@ -1,0 +1,14 @@
+{
+  "resourceType": "ChargeItemDefinition",
+  "id": "cid-syphilis",
+  "status": "active",
+  "propertyGroup": [ {
+    "priceComponent": [ {
+      "type": "base",
+      "amount": {
+        "value": 2000,
+        "currency": "TZS"
+      }
+    } ]
+  } ]
+}

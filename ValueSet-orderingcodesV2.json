@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "id": "orderingcodesV2",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/orderingcodes/v2",
+  "status": "active",
+  "compose": {
+    "include": [ {
+      "concept": [ {
+        "code": "LAB296",
+        "display": "Syphilis"
+      }, {
+        "code": "LAB330",
+        "display": "Urinalysis"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "id": "turbiditycodesv2",
+  "url": "http://omega.com/healthcare/IS-H/fhir/ValueSet/turbiditycodesv2/v2",
+  "status": "active",
+  "compose": {
+    "include": [ {
+      "concept": [ {
+        "code": "LA19732-9",
+        "display": "Clear"
+      }, {
+        "code": "Cloudy",
+        "display": "LA19733-7"
+      } ]
+    } ]
+  }
+}
