@@ -1,6 +1,6 @@
 {
   "resourceType": "Composition",
-  "id": "generic-lab-compendium-header",
+  "id": "omega-lab-compendium-header",
   "meta": {
     "profile": [
       "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogheader/v2"

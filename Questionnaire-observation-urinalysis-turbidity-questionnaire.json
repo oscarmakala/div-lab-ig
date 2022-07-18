@@ -1,0 +1,68 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "observation-urinalysis-turbidity-questionnaire",
+  "status": "active",
+  "item": [ {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/questionnaire-item-control",
+          "code": "page",
+          "display": "Page"
+        } ],
+        "text": "Page"
+      }
+    } ],
+    "linkId": "1",
+    "text": "Turbidity Ql (U)",
+    "type": "group",
+    "item": [ {
+      "extension": [ {
+        "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext",
+        "valueExpression": {
+          "name": "20627-6",
+          "language": "application/x-fhir-query",
+          "expression": "Observation"
+        }
+      } ],
+      "linkId": "2",
+      "type": "group",
+      "required": true,
+      "item": [ {
+        "linkId": "3",
+        "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.valueCodeableConcept",
+        "type": "group",
+        "item": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              } ],
+              "text": "Drop down"
+            }
+          } ],
+          "linkId": "4",
+          "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.valueCodeableConcept.coding",
+          "text": "Turbidity Ql (U)",
+          "type": "choice",
+          "required": true,
+          "answerOption": [ {
+            "valueCoding": {
+              "code": "LA19732-9",
+              "display": "Clear"
+            }
+          }, {
+            "valueCoding": {
+              "code": "Cloudy",
+              "display": "LA19733-7"
+            }
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}
