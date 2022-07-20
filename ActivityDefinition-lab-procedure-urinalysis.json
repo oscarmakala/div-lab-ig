@@ -2,13 +2,18 @@
   "resourceType": "ActivityDefinition",
   "id": "lab-procedure-urinalysis",
   "meta": {
-    "profile": [ "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabProcedureDefinition" ]
+    "profile": [
+      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabProcedureDefinition"
+    ]
   },
   "name": "UrinalysisProcedure",
   "kind": "ServiceRequest",
-  "observationResultRequirement": [ {
-    "reference": "ObservationDefinition/observation-urinalysis-urine-color"
-  }, {
-    "reference": "ObservationDefinition/observation-urinalysis-turbidity"
-  } ]
+  "observationResultRequirement": [
+    {
+      "reference": "ObservationDefinition/observation-urinalysis-urine-color"
+    },
+    {
+      "reference": "ObservationDefinition/observation-urinalysis-turbidity"
+    }
+  ]
 }
