@@ -10,7 +10,7 @@
       "reference": "Composition/omega-lab-compendium-header"
     }
   }, {
-    "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogreference/v2",
+    "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/servicebillingcode/v2",
     "valueReference": {
       "reference": "ChargeItemDefinition/cid-syphilis"
     }
@@ -44,7 +44,6 @@
         "code": "LAB296",
         "display": "Syphilis"
       } ]
-    } ],
-    "definitionCanonical": "ActivityDefinition/lab-procedure-syphilis"
+    } ]
   } ]
 }
