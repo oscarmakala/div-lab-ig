@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48ff75b6-8423-4809-93ca-2cde5350343d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary-OmegaSyncConfiguration.json" beforeDir="false" afterPath="$PROJECT_DIR$/Binary-OmegaSyncConfiguration.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +212,9 @@
       <workItem from="1657887261364" duration="2191000" />
       <workItem from="1657895409017" duration="7559000" />
       <workItem from="1658177079298" duration="987000" />
-      <workItem from="1658313957446" duration="1013000" />
+      <workItem from="1658313957446" duration="1309000" />
+      <workItem from="1658588791569" duration="5000" />
+      <workItem from="1658592621041" duration="610000" />
     </task>
     <servers />
   </component>
