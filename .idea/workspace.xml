@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48ff75b6-8423-4809-93ca-2cde5350343d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Questionnaire-questionnaire-urinalysis.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObservationDefinition-observation-syphilis.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObservationDefinition-observation-syphilis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObservationDefinition-observation-urinalysis-turbidity.json" beforeDir="false" afterPath="$PROJECT_DIR$/ObservationDefinition-observation-urinalysis-turbidity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDefinition-lab-service-syphilis.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlanDefinition-lab-service-syphilis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaire-PatientRegistration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaire-observation-syphilis-questionnaire.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaire-observation-urinalysis-turbidity-questionnaire.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaire-observation-urinalysis-urine-color-questionnaire.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ValueSet-turbiditycodesv2.json" beforeDir="false" afterPath="$PROJECT_DIR$/ValueSet-turbiditycodesv2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDefinition-LabServiceWidal.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlanDefinition-LabServiceWidal.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +216,7 @@
       <workItem from="1658588791569" duration="5000" />
       <workItem from="1658592621041" duration="1679000" />
       <workItem from="1658632875257" duration="379000" />
-      <workItem from="1659121618332" duration="698000" />
+      <workItem from="1659121618332" duration="1028000" />
     </task>
     <servers />
   </component>

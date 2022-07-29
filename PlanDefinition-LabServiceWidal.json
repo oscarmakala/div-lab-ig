@@ -10,7 +10,7 @@
     {
       "url": "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/catalogreference/v2",
       "valueReference": {
-        "reference": "Composition/generic-lab-compendium-header"
+        "reference": "Composition/omega-lab-compendium-header"
       }
     },
     {
