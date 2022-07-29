@@ -2,24 +2,16 @@
   "resourceType": "ObservationDefinition",
   "id": "observation-syphilis",
   "meta": {
-    "profile": [
-      "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabObservationDefinition"
-    ]
+    "profile": [ "http://omega.com/healthcare/IS-H/fhir/StructureDefinition/LabObservationDefinition" ]
   },
-  "category": [
-    {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "laboratory",
-          "display": "Laboratory"
-        }
-      ]
-    }
-  ],
-  "permittedDataType": [
-    "CodeableConcept"
-  ],
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "laboratory",
+      "display": "Laboratory"
+    } ]
+  } ],
+  "permittedDataType": [ "CodeableConcept" ],
   "multipleResultsAllowed": false,
   "validCodedValueSet": {
     "reference": "ValueSet/orderingcodesV2"

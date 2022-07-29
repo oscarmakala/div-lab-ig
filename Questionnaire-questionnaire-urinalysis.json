@@ -1,0 +1,173 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "questionnaire-urinalysis",
+  "status": "active",
+  "item": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext",
+          "valueExpression": {
+            "name": "Color Auto (U)",
+            "language": "application/x-fhir-query",
+            "expression": "Observation"
+          }
+        }
+      ],
+      "linkId": "2",
+      "type": "group",
+      "required": true,
+      "item": [
+        {
+          "linkId": "3",
+          "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.valueCodeableConcept",
+          "type": "group",
+          "item": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "drop-down",
+                        "display": "Drop down"
+                      }
+                    ],
+                    "text": "Drop down"
+                  }
+                }
+              ],
+              "linkId": "4",
+              "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.valueCodeableConcept.coding",
+              "text": "Color Auto (U)",
+              "type": "choice",
+              "required": true,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "code": "Straw",
+                    "display": "Straw"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "PaleYellow",
+                    "display": "Pale Yellow"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "DeepYellow",
+                    "display": "Deep Yellow"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+              "valueBoolean": true
+            }
+          ],
+          "linkId": "5",
+          "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.code",
+          "type": "choice",
+          "initial": [
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "50553-7",
+                "display": "Color Auto (U)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext",
+          "valueExpression": {
+            "name": "Turbidity Ql (U)",
+            "language": "application/x-fhir-query",
+            "expression": "Observation"
+          }
+        }
+      ],
+      "linkId": "6",
+      "type": "group",
+      "required": true,
+      "item": [
+        {
+          "linkId": "7",
+          "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.valueCodeableConcept",
+          "type": "group",
+          "item": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "drop-down",
+                        "display": "Drop down"
+                      }
+                    ],
+                    "text": "Drop down"
+                  }
+                }
+              ],
+              "linkId": "8",
+              "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.valueCodeableConcept.coding",
+              "text": "Turbidity Ql (U)",
+              "type": "choice",
+              "required": true,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "code": "LA19732-9",
+                    "display": "Clear"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "LA19733-7",
+                    "display": "Cloudy"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+              "valueBoolean": true
+            }
+          ],
+          "linkId": "9",
+          "definition": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.code",
+          "type": "choice",
+          "initial": [
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "20627-6",
+                "display": "Turbidity Ql (U)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
